@@ -176,23 +176,19 @@ def energy_deficit_df(df):
 
 ## 🤖 Models Implemented
 
-### 1. Linear Regression (Baseline)
-- Simple baseline model for comparison
-- Direct feature-to-target mapping
-
-### 2. Long Short-Term Memory (LSTM)
+### 1. Long Short-Term Memory (LSTM)
 - Handles sequential dependencies in time-series data
 - Architecture: 64→32 units with dropout and regularization
 
-### 3. Bidirectional LSTM (BiLSTM)
+### 2. Bidirectional LSTM (BiLSTM)
 - Processes sequences in both forward and backward directions
 - Enhanced pattern recognition capabilities
 
-### 4. Gated Recurrent Unit (GRU)
+### 3. Gated Recurrent Unit (GRU)
 - Simplified RNN architecture with fewer parameters
 - Faster training compared to LSTM
 
-### 5. 1D Convolutional Neural Network (CNN)
+### 4. 1D Convolutional Neural Network (CNN)
 - Captures local patterns in time-series data
 - Efficient for shorter sequence dependencies
 
